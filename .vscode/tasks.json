@@ -8,22 +8,11 @@
             "label": "cargo run",
             "command": "cargo",
             "args": [
-                "run", "--", "Foto_A0308.jpg"
+                "run",
+                "--",
+                "Foto_A0308.jpg"
             ],
             "problemMatcher": [
                 "$rustc"
             ]
         }
-    {
-        "label": "cargo update",
-        "type": "shell",
-        "command": "cargo",
-        "args": [
-            "update"            
-        ],
-        "problemMatcher": [
-            "$rustc"
-        ]
-    }
-    ]
-}
